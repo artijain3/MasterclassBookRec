@@ -1,0 +1,9 @@
+cd MasterclassBookRec
+npm init -y
+npm install -D @playwright/test
+npx playwright install
+
+uv venv
+source .venv/bin/activate
+uv pip install playwright
+playwright install
